@@ -1074,9 +1074,13 @@ nav.mobile ul li a {
 }
 
 @media (min-width: 1128px) {
+    .world_container {
+        justify-content: center;
+    }
+    
     .world_container .con img {
-        width: 410px;
-        height: 410px;
+        width: 400px;
+        height: 400px;
         border-radius: 10px;
     }
 
@@ -1135,8 +1139,12 @@ nav.mobile ul li a {
 
 
 @media (min-width: 1128px) {
+    .host_container {
+        justify-content: center;
+    }
+    
     .host_container .con img {
-        width: 410px;
+        width: 400px;
         border-radius: 10px;
     }
 
